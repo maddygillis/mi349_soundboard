@@ -1,15 +1,11 @@
 window.onload = function() {
-    
-    var buttonElement = document.getElementById('my-first-button')
 
-    buttonElement.addEventListener('click', function () {
-        console.log('I was clicked!')
+    var buttonElement = document.getElementById('crowd button')
+
+    buttonElement.play('click', car_x.wav)
       })
+      
 
-    <button id="my-first-button">
-    I'm a button!
-    </button>
-
-
+    
 
 }
