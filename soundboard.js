@@ -7,12 +7,12 @@ window.onload = function() {
 
       function play() {
           var audio1 = document.getElementById("audio1");
-          audio.play():
+          audio1.play():
       }
 
       function play() {
           var audio2 = document.getElementById("audio2");
-          audio.play()
+          audio2.play()
       }
 
 }
