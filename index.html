@@ -5,26 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"> </script>
     <title>My Soundboard</title>
 </head>
 <body>
     <h1>Soundboard Buttons</h1>
    <p>
-    <button onclick="snd.play()">Car Sound</button>
+    <input type="button" value="Car Sounds" onclick="play()">
+    <audio id="audio" src="car_x.wav"></audio>
     <img src="car.png" alt="car picture">
    </p> 
-   <p><a href="audio.html">Audio</a></p>
 
-   <input type="button" value="PLAYs" onclick="play()">
-   <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
    <p>
-    <button id="crowd button" >Crowd laughing</button>
+    <input type="button" value="Crowd Sounds" onclick="play()">
+    <audio id="audio1" src="cheering.wav"></audio>
     <img src="crowd.jpg" alt="cartoon crowd">
    </p>
 
    <p>
-    <button>Drink Popping</button>
+    <input type="button" value="Drink Popping Sound" onclick="play()">
+    <audio id="audio2" src="champagne.wav"></audio>
     <img src="drink.png" alt="champagne drink">
    </p>
 

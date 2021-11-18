@@ -1,12 +1,18 @@
 window.onload = function() {
 
-    var buttonElement = document.getElementById('crowd button')
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
 
-    buttonElement.play(cheering.wav)
-    
-      
+      function play() {
+          var audio1 = document.getElementById("audio1");
+          audio.play():
+      }
 
-
-    
+      function play() {
+          var audio2 = document.getElementById("audio2");
+          audio.play()
+      }
 
 }
