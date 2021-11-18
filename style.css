@@ -1,4 +1,12 @@
 html {
-    background-color: antiquewhite;
+    background-color:lightskyblue;
 }
 
+.button {
+    color: blueviolet;
+
+}
+
+img {
+    width: 40px;
+}
