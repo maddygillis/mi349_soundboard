@@ -4,9 +4,17 @@ html {
 
 .button {
     background-color: white;
-
+    width: 60px;
 }
 
 img {
-    width: 60px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Times New Roman' ;
+}
+
+body {
+    font-family: 'Times New Roman';
 }
